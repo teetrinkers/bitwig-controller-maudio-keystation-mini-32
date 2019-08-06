@@ -2,7 +2,7 @@ loadAPI(1);
 
 host.defineController("M-Audio", "Keystation Mini 32", "1.0", "69cb6728-002b-4546-b9a9-6ffb19d58281");
 host.defineMidiPorts(1, 0);
-host.addDeviceNameBasedDiscoveryPair(["Keystation Mini 32"], ["Keystation Mini 32"]);
+host.addDeviceNameBasedDiscoveryPair(["Keystation Mini 32"], []);
 
 var CC_MIN = 1;
 var CC_MAX = 119;
